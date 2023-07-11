@@ -1,0 +1,78 @@
+* {
+  @import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Josefin+Sans&display=swap");
+
+  font-family: "Caprasimo", cursive;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffd89c;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.search-container input[type="text"] {
+  border-radius: 25px;
+  padding: 12px 20px;
+  flex: 1;
+  font-size: 25px;
+}
+.search-container button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+.weather-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.weather-container div {
+  width: 33.33%;
+  text-align: center;
+}
+
+.humid,
+.wind {
+  position: relative;
+  top: 100px;
+}
+.humidity-icon,
+.wind-icon {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px; /* Adjust this value to change the spacing */
+}
+#hh1,
+#wih1 {
+  font-size: 40px;
+}
+#hp,
+#wp {
+  font-size: 20px;
+}
+
+.weather {
+  position: relative;
+  bottom: 100px;
+}
+.weather-icon {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px; /* Adjust this value to change the spacing */
+}
+#temp {
+  font-size: 120px;
+}
